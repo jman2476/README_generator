@@ -55,6 +55,9 @@ and input your information as you are asked. For some prompts, you will just hav
 
 When using the text editor, save first and then quit or close the window to move to the next prompt. Which text editor is loaded will depend on your system.
 
+For a visual reference, please download and watch this video: 
+https://github.com/jman2476/README_generator/blob/main/assets/2024-01-13%2023-11-27.mp4
+
 
   <a id='tests'></a>
   ## Tests
@@ -78,4 +81,8 @@ edEx Bootcamp - starter code
   <a id='badges'></a>
   ## Badges
   
+  ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
   
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
