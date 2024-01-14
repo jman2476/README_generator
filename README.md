@@ -1,49 +1,58 @@
-# README generator
+# asdf
 
+  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
   ## Description
-  it makes readme files
+  ```
+this is a code block
+```
   
   
   ## Table of Contents
   
+  - [License](#license)
   - [Installation](#installation)
   - [Features](#features)
   - [Usage](#usage)
   - [Testing](#tests)
   - [Credits](#credits)
   - [How to contribute](#contributions)
-  - [License](#license)
   - [Badges](#badges)
+  - [Questions](#questions)
+  
+  <a id='license'></a>
+  ## License
+  https://en.wikipedia.org/wiki/MIT_License
 
   <a id='installation'></a>
   ## Installation
-  run npm i a;lskdfjas;dfj and npm i fs i think
-
+  
   
   <a id='features'></a>
   ## Features
-  none
+  
 
   <a id='usage'></a>
   ## Usage
-  please don't use
+  
 
 
   <a id='tests'></a>
   ## Tests
-  dont even think about it
+  
 
   <a id='credits'></a>
   ## Credits
-  no one worked on this
+  
   
   <a id='contributions'></a>
   ## How to Contribute
   
  
-  <a id='license'></a>
-  ## License
-  MIT License
+  <a id='questions'></a>
+  ## Questions
+
+  If you have any questions, feel free to contact me at jman2476@live.com,
+  or visit my GitHub at https://github.com/jman2476
 
   <a id='badges'></a>
   ## Badges
