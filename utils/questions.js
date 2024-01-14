@@ -14,14 +14,24 @@ const questions = [
         type: 'editor',
         name: 'installation'
     },
+    {
+        message: 'Got any features?!',
+        type: 'editor',
+        name: 'features'
+    },
     { 
         message: 'Usage information?',
         type: 'editor',
         name: 'usage'
     },
+    {
+        type: 'editor',
+        message: 'Credits?',
+        name: 'credits'
+    },
     { 
         message: 'Contribution guidelines?',
-        type: 'input',
+        type: 'editor',
         name: "contribution"
     },
     { 

@@ -6,32 +6,34 @@ const genMD = require('./utils/generateMarkdown')
 const questions = require('./utils/questions')
 
 
-// Function to get user input
-function userInput () {
-    
-}
 
 // TODO: Create a function to write README file
 function writeToFile(path, data) { 
     //write data to the file using fs
     fs.writeFile(path, data, (err)=> {
-        if (err) return console.log(err)
-
+        if (err) {return console.log(err)}
+        
         // 
         console.log('Check out your new README file!')
     })
 }
 
-inquirer.prompt(questions)
-    .then((answersObj) => {
-        const markdownTxt = genMD(answersObj);
-
-        // create the readme file
-        writeToFile('./README.md', markdownTxt)
-    })
+// Function to get user input
+function userInput () {
+    // prompts user for each question in the question array
+    inquirer.prompt(questions)
+        .then((answersObj) => {
+            const markdownTxt = genMD(answersObj);
+    
+            // create the readme file
+            writeToFile('./README.md', markdownTxt)
+        })
+}
 
 // TODO: Create a function to initialize app
-function init() { }
+function init() { 
+    userInput();
+}
 
 // Function call to initialize app
 init();
