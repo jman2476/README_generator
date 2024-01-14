@@ -72,7 +72,7 @@ function renderLicenseSection(license) {
 
   const licenseText = `This project use the ${license}. To learn more about this license, visit ${licenseLink}`
 
-  return [licenseBadge, licenseLink]
+  return [licenseBadge, licenseText]
 }
 
 // function to generate markdown for README
