@@ -26,7 +26,7 @@ function userInput () {
             const markdownTxt = genMD(answersObj);
     
             // create the readme file
-            writeToFile('./README.md', markdownTxt)
+            writeToFile('./newREADME.md', markdownTxt)
         })
 }
 
