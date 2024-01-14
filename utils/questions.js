@@ -30,7 +30,7 @@ const questions = [
         name: 'credits'
     },
     { 
-        message: 'Contribution guidelines?',
+        message: 'Contribution guidelines? Please include a repository link if applicable',
         type: 'editor',
         name: "contribution"
     },
@@ -46,7 +46,6 @@ const questions = [
         name: 'license',
         choices: ["MIT License",
         "Apache License 2.0",
-        "GNU General Public License (GPL)",
         "Creative Commons License",
         "BSD 3-Clause License",
         "Mozilla Public License 2.0",
@@ -54,12 +53,11 @@ const questions = [
         "GNU Lesser General Public License (LGPL)",
         "Eclipse Public License",
         "GNU Affero General Public License (AGPL)",
-        "ISC License",
         "GNU General Public License v3.0",
         "GNU General Public License v2.0",
         "GNU General Public License v1.0"
       ],
-      default: 1
+      default: 0
     },
     { 
         message: 'Github username?',

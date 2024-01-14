@@ -2,12 +2,12 @@
 const inquirer = require("inquirer")
 const fs = require('fs')
 const genMD = require('./utils/generateMarkdown')
-// TODO: Create an array of questions for user input
+// array of questions for user input
 const questions = require('./utils/questions')
 
 
 
-// TODO: Create a function to write README file
+// function to write README file
 function writeToFile(path, data) { 
     //write data to the file using fs
     fs.writeFile(path, data, (err)=> {
@@ -30,7 +30,7 @@ function userInput () {
         })
 }
 
-// TODO: Create a function to initialize app
+// function to initialize app
 function init() { 
     userInput();
 }
